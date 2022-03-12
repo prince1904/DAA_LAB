@@ -17,7 +17,7 @@ for(int i=0;i<n;i++){
         continue;
     }
     else{
-        if(a[i]-a[j]==key){
+        if(a[j]-a[i]==key){
             nooftimes++;
         }
     }
